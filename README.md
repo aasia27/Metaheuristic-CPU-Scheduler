@@ -4,7 +4,7 @@ A **Java-based CPU scheduling simulator** that implements both **traditional sch
 
 ---
 
-## 📌 Features
+##  Features
 - **Traditional Scheduling Algorithms:**
   - First Come First Serve (FCFS)
   - Shortest Job First (SJF)
@@ -23,7 +23,7 @@ A **Java-based CPU scheduling simulator** that implements both **traditional sch
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Java (JDK 8+)**
 - **Swing / AWT** for GUI
 - **JFreeChart** for chart visualization
@@ -31,4 +31,15 @@ A **Java-based CPU scheduling simulator** that implements both **traditional sch
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
+METAHEURISTICS-CPU-SCHEDULER/
+│── src/
+│ ├── algorithm/
+│ │ ├── traditional/
+│ │ ├── metaheuristic/
+│ ├── gui/
+│ ├── model/
+│ ├── util/
+│── lib/ # JAR dependencies (JFreeChart, JCommon, etc.)
+│── .gitignore
+│── README.md
